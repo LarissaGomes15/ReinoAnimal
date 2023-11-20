@@ -1,7 +1,7 @@
 package Reinoanimal;
 
 /**
- * Classe responsável por gerar um animal terrestre
+ * Classe responsavel por gerar um animal terrestre
  * @author 20201064010008
  *
  */

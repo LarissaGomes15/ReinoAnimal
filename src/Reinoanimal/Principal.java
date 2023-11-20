@@ -1,6 +1,6 @@
 package Reinoanimal;
 /**
- * Classe responsável por fazer os testes
+ * Classe responsavel por fazer os testes
  * @author 20201064010008
  *
  */
@@ -15,9 +15,9 @@ public class Principal {
 		Terrestre a1 = new Terrestre();
 		a1.setEspecie("Felis catus");
 		a1.setData("2");
-		a1.setSexo("Femêa");
+		a1.setSexo("Femea");
 		a1.setPelo(true);
-		a1.setRegiao("ásia");
+		a1.setRegiao("asia");
 		a1.perfil();
 		a1.comer();
 		a1.mover();
@@ -25,7 +25,7 @@ public class Principal {
 		Aquatico a2 = new Aquatico();
 		a2.setEspecie("Carcharias taurus");
 		a2.setData("7");
-		a2.setSexo("Fêmea");
+		a2.setSexo("Femea");
 		a2.setEscama(true);
 		a2.setTipoagua("salgada");
 		a2.perfil();
@@ -44,7 +44,7 @@ public class Principal {
 		Aereo a4 = new Aereo();
 		a4.setEspecie("Amazonas aestiva");
 		a4.setData("10");
-		a4.setSexo("Fêmea");
+		a4.setSexo("Femea");
 		a4.setAltitude("37.9");
 		a4.perfil();
 		a4.comer();
@@ -55,7 +55,7 @@ public class Principal {
 		a5.setData("3");
 		a5.setSexo("Macho");
 		a5.setEscama(true);
-		a5.setTipoagua("Água doce");
+		a5.setTipoagua("agua doce");
 		a5.perfil();
 		a5.comer();
 		a5.nadar();
@@ -68,13 +68,13 @@ public class Principal {
 		a6.setData("8");
 		a6.setSexo("Macho");
 		a6.setPelo(true);
-		a6.setRegiao("América do sul");
+		a6.setRegiao("America do sul");
 		a6.perfil();
 		a6.comer();
 		a6.mover();
 		
 		/**
-		 * será exibido a quantidade de animais cadastrados
+		 * sera exibido a quantidade de animais cadastrados
 		 */
 		System.out.println("Animais cadastrados:" + Animal.getContador());
 	
